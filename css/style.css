@@ -1,0 +1,108 @@
+body {
+	background: white;
+}
+
+/* header */
+
+.header {
+	position: relative;
+	padding-top: 10px;
+	height: 10%;
+}
+
+.header__top_left_rectangle {
+	position: absolute;
+	background: brown;
+	width: 70%;
+	top: 0;
+	left: -35%;
+	height: 75%;
+	transform: skew(-45deg);
+}
+
+.header__top_logoblock_image {
+	width: 110px;
+	height: 100px;
+}
+
+.header__top_logoblock_text {
+	padding-top: 15px;
+}
+
+.header__top_icon_phone {
+	width: 20px;
+	height: 20px;
+}
+
+.header__top_icon_mail {
+	width: 20px;
+	height: 15px;
+}
+.header nav.container {
+	margin-top: 10px;
+	height: 27%;
+}
+
+.header__nav {
+	margin: 0 0 0 auto;
+	padding: 10px;
+	list-style: none;
+}
+
+.header__nav:before {
+	content: "";
+	position: absolute;
+	background: brown;
+	width: 80%;
+	bottom: 0;
+	right: -30%;
+	height: 27%;
+	transform: skew(-45deg);
+}
+
+.header__nav_link {
+	text-decoration: none;
+}
+
+/* feedback */
+
+.feedback__form {
+	position: fixed;
+	width: 30%;
+	left: 35%;
+	top: 30%;
+	height: 40%;
+	background: rgba(0, 0, 0, 0.9);
+	padding: 20px;
+	color: white;
+	z-index: 1000;
+}
+
+.feedback__button_close {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* autopark  */
+
+.autopark div.no-gutters {
+	padding-left: 8%;
+}
+
+/* footer */
+
+.footer {
+	background: black;
+	padding: 20px;
+	color: white;
+}
+
+.footer__line {
+	background: white;
+	opacity: 0.3;
+}
+
+.footer__bottom_text {
+	opacity: 0.5;
+}
